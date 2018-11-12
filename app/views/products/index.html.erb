@@ -13,6 +13,6 @@
 <h1>Add Products</h1>
 
 <%= form_tag ({controller: 'products', action: 'add', method: 'post'}) do %>
-  <%= f.text_field :product %>
-  <%= f.submit 'Add to Cart' %>
+  <input name=product>
+  <input type=submit value='Add to Cart'
 <% end %>
